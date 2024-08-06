@@ -1,7 +1,11 @@
 # batch10am
 dsyugyadf
-ewygdyufdd
-dwyugdywd
-dwidoihd
+ewygdyu
 dwiudguigfd
 odjjdkjjd
+uigiug
+iuguig
+yufytf
+iugiugg
+ojojjj
+jjojj
