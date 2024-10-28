@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header{
+  background-color: black;
+  color: white;
+}
+
+.main-header img{
+  width: 120px;
+  height: 40px;
+}
+
+.delivery{
+  display: flex;
+  align-items: center;
+  line-height: 0px;    
+}
+
+.delivery div:nth-child(2) p, .delivery div:nth-child(2) h2, .lineheight p, .lineheight h2{
+  font-size: 16px;
+}
+
+
+.select, .india, .cart{
+  display: flex;
+  align-items: center;     
+}
+
+.select{
+  position: relative;
+  height: 40px;
+  width: 470px;
+  border: 3px solid orange;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.select .bi{
+  position: absolute;
+  top: 0px;
+  left: 424px;
+  background-color:orange;
+  padding: 11px 15px;
+  border-radius: 0px 5px 5px 0px;
+  
+}
+
+.select select, .select input{
+  height: 40px;  
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  
+}
+
+.select input{   
+  border-radius: 5px;    
+}
+
+
+.select select{
+  background-color: rgb(160, 154, 154);
+  position: relative;
+}
+
+.select input[type=text] {
+  width: 100%;
+  outline: none;
+  padding: 0 20px;
+}
+
+.india, .cart{
+  justify-content: space-between;  
+  gap: 5px;   
+}
+
+.india img{
+  width: 20px;
+  height: 18px;
+}
+
+.lineheight{
+  line-height: 0px;
+}
+
+.bi-cart{
+  font-size: 48px;
+  color: orange;
+}
+
+.cart{
+  position: relative;
+}
+
+.cart p{
+  font-size: 22px;
+  position: absolute;    
+  left: 20px;
+  top: -4px;
+  color: orange;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly; 
+  background-color: aqua;
+}
+
+li{
+  list-style: none;
+}
+
+.mybox{
+  width: 100% !important;
+  background-color: aqua;
+  padding: 30px;
+}
+
+.mybox div{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
